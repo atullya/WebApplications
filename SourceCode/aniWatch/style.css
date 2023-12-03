@@ -1,0 +1,533 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+#navbar nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #343a40;
+  padding: 8px 10px;
+  flex-wrap: wrap;
+  /* border: 1px solid green; */
+}
+#navbar nav .nav1 .logo img {
+  height: 40px;
+  margin: auto;
+}
+#navbar nav .nav1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 85%;
+}
+#navbar nav .nav1 .logo {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+#navbar nav .nav1 .logo i {
+  color: white;
+  font-weight: 600;
+  font-size: 26px;
+}
+#navbar nav .nav1 input {
+  height: 40px;
+  width: 280px;
+  margin-left: -20px;
+  text-align: left;
+}
+#navbar nav .nav1 .input {
+  position: relative;
+}
+#navbar nav .nav1 .search {
+  position: absolute;
+  top: 8px;
+  left: 175px;
+  display: flex;
+  gap: 1rem;
+  align-items: baseline;
+}
+#navbar nav .nav1 .search span {
+  background: grey;
+  padding: 4px;
+  border-radius: 2px;
+}
+#navbar nav .nav1 .social {
+  display: flex;
+  gap: 0.5rem;
+}
+
+#navbar nav .nav1 .social i {
+  background: blue;
+  color: #fff;
+  padding: 7px;
+  font-size: 20px;
+  border-radius: 50%;
+}
+#navbar nav .nav1 .social i:nth-child(2) {
+  background: #6f42c1;
+}
+#navbar nav .nav1 .social i:nth-child(3) {
+  background: #17a2b8;
+}
+#navbar nav .nav1 .social i:nth-child(4) {
+  background: #dc3545;
+}
+#navbar nav .nav1 .social i:nth-child(5) {
+  background: #007bff;
+}
+#navbar nav .nav1 .watch {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+#navbar nav .nav1 .watch i {
+  color: #ffc107;
+  font-size: 23px;
+}
+#navbar nav .nav1 .watch li {
+  color: white;
+}
+#navbar nav .nav1 .span {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.25rem;
+  text-align: center;
+}
+#navbar nav .nav1 .span .ok {
+  display: flex;
+  width: 80%;
+  font-size: 15px;
+}
+#navbar nav .nav1 .span .en {
+  background: #ffc107;
+  padding: 2px;
+  width: 30px;
+  width: 30px;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+}
+#navbar nav .nav1 .span .jp {
+  width: 30px;
+  background: grey;
+  padding: 2px;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+}
+#navbar nav .nav1 .span li {
+  color: white;
+}
+#navbar nav .nav2 button {
+  text-align: center;
+  border: none;
+  padding: 10px;
+  height: 40px;
+  background: #ffc107;
+  border-radius: 3px;
+  width: 75px;
+}
+
+/* Hero */
+#hero {
+  display: flex;
+  padding: 20px;
+  gap: 1.5rem;
+  align-items: center;
+  background: black;
+}
+#hero .gif img {
+  height: 60px;
+  width: auto;
+  border-radius: 50%;
+}
+#hero .title p {
+  color: #ffc107;
+  font-weight: 700;
+}
+#hero .title span {
+  color: white;
+}
+#hero .number {
+  color: hsla(0, 0%, 80%, 0.5);
+}
+#hero .share {
+  color: white;
+  background: lime;
+  width: 50px;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 20px;
+}
+
+/* about*/
+#about {
+  display: flex;
+  background: #343a40;
+
+  padding: 15px 20px;
+  justify-content: space-between;
+}
+#about .col1 h1,
+#about .col2 .heading h1 {
+  color: hsl(45, 100%, 71%);
+}
+#about .col2 .heading h1 {
+  width: 90px;
+}
+
+#about .col2 .heading {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+#about .col2 .heading .rate {
+  display: flex;
+  align-items: center;
+}
+#about .col2 .main {
+  background: #323e4b;
+  margin-top: -22px;
+  height: fit-content;
+}
+#about .col2 .main .right {
+  margin-top: 20px;
+  border-bottom: 1px solid lightgray;
+  width: 230px;
+  margin-left: 52px;
+  margin-bottom: -30px;
+}
+
+#about .col2 .details {
+  padding-top: 20px;
+  padding-left: 15px;
+  margin-top: 40px;
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+}
+
+#about .col2 .details img {
+  height: 100px;
+}
+#about .col2 .details h2 {
+  color: #fff;
+}
+#about .col2 .details .box {
+  position: relative;
+}
+#about .col2 .details h2::after {
+  content: "";
+  background: yellow;
+  height: 5px;
+  width: 25px;
+  position: absolute;
+  top: 40px;
+  left: 0px;
+}
+
+#about .col2 .details .name1 p {
+  color: white;
+  font-weight: 600;
+}
+#about .col2 .details .name1 .span {
+  margin-top: 15px;
+  display: flex;
+  gap: 0.1rem;
+}
+#about .col2 .details .name1 span {
+  padding: 2px;
+  background: lightgreen;
+
+  width: 35px;
+}
+#about .col2 .details .name1 .span .green {
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+#about .col2 .details .name1 .span .pink {
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  background: pink;
+}
+.today {
+  background: hsl(45, 100%, 71%);
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+
+  padding: 10px;
+}
+#about .col2 .heading .date {
+  color: white;
+  padding: 10px;
+  display: flex;
+  gap: 1.2rem;
+  background: #3f4c58;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+#about .col2 .main .left {
+  border: none;
+}
+
+#about .genres {
+  margin-top: 50px;
+  /* border: 1px solid white; */
+  background: #343a40;
+}
+
+#about .genres h1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: hsl(45, 100%, 71%);
+}
+#about .genres .all {
+  background: #323e4b;
+  display: grid;
+  grid-template-columns: repeat(4, 60px);
+  padding: 15px;
+  gap: 1rem;
+}
+#about .genres .all .action,
+#about .genres .all .parody,
+#about .genres .all .historic {
+  color: #28a745;
+}
+
+#about .genres .all .adventure,
+#about .genres .all .harem,
+#about .genres .all .martial {
+  color: #ffc107;
+}
+#about .genres .all .cars,
+#about .genres .all .mystery,
+#about .genres .all .kids {
+  color: #dc3545;
+}
+#about .genres .all .comedy,
+#about .genres .all .isekai,
+#about .genres .all .music {
+  color: #6f42c1;
+}
+#about .genres .all .demen,
+#about .genres .all .magic,
+#about .genres .all .game,
+#about .genres .all .mecha {
+  color: #007bff;
+}
+#about .genres .all .demons,
+#about .genres .all .police {
+  color: #fd7e14;
+}
+#about .genres .all .drama,
+#about .genres .all .horror,
+#about .genres .all .military {
+  color: #17a2b8;
+}
+#about .genres .all .fantasy,
+#about .genres .all .josei,
+#about .genres .all .ecchi {
+  color: #20c997;
+}
+#about .col1 .anime {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#about .col1 .anime .card {
+  flex-basis: 24.5%;
+  margin-bottom: 30px;
+}
+
+#about .col1 .anime .card .image img {
+  width: 230px;
+  height: 320px;
+}
+#about .col1 .anime .card h2 {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  font-weight: 500;
+  color: #fff;
+}
+#about .col1 .anime .card p {
+  font-size: 0.9em;
+  line-height: 1.5em;
+  font-weight: 500;
+  color: hsl(0, 0%, 60%);
+  width: 220px;
+}
+.det {
+  margin-top: 10px;
+  display: flex;
+  gap: 2rem;
+  color: hsl(0, 0%, 60%);
+}
+.det ul li {
+  list-style-type: circle;
+}
+
+#page {
+  background: #343a40;
+  display: flex;
+
+  align-items: center;
+  gap: 1.5rem;
+  width: 100%;
+  margin-bottom: 90px;
+  margin-left: 200px;
+}
+body {
+  background: #343a40;
+  overflow-x: hidden;
+}
+
+#page div {
+  background: #494b4d;
+  padding: 15px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+#page .one {
+  background: #b19132;
+}
+
+/* Footer */
+
+footer .list {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-left: 10px;
+  position: relative;
+}
+footer .list h1 {
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+}
+footer .list h1::after {
+  content: "";
+  height: 40px;
+  width: 1px;
+  background: #ceb4b4;
+  position: absolute;
+  left: 160px;
+}
+footer .list p {
+  color: #fff;
+  font-size: 20px;
+}
+footer .alphabets ul {
+  display: flex;
+  padding-left: 10px;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 10px;
+}
+footer .alphabets ul li {
+  background: #494b4d;
+  padding: 10px;
+  color: white;
+  font-size: 15px;
+  border-radius: 15%;
+  margin: 2px;
+}
+footer .policy ul {
+  display: flex;
+  color: white;
+  padding: 10px 20px;
+  align-items: center;
+  gap: 1.2rem;
+  margin-bottom: 10px;
+}
+footer .policy p {
+  color: rgb(155, 145, 145);
+  padding: 0px 20px;
+  line-height: 1.8rem;
+}
+footer .copywright {
+  color: rgb(155, 145, 145);
+  padding: 0px 20px;
+  margin-bottom: 20px;
+}
+
+/* Media Queries */
+
+@media (max-width: 477px) {
+  html {
+    overflow-x: hidden;
+
+    height: 1160vh;
+  }
+  #navbar nav {
+    display: flex;
+  }
+
+  #navbar nav .nav1 i {
+    display: none;
+  }
+  #navbar nav .input input {
+    width: 200px;
+    margin-left: 40px;
+  }
+  #navbar nav .social {
+    display: none;
+  }
+  #navbar nav .watch li {
+    display: none;
+  }
+  #navbar nav .span .ok .en {
+    display: none;
+  }
+  #navbar nav .span .ok .jp {
+    display: none;
+  }
+  #navbar nav .span li {
+    display: none;
+  }
+  #navbar nav .nav2 button {
+    display: none;
+  }
+
+  #hero {
+    min-width: 145%;
+  }
+  #about {
+    flex-wrap: wrap;
+  }
+  #about .col1 h1 {
+    margin-left: 100px;
+  }
+  #about .col1 .anime .card {
+    margin-left: 80px;
+  }
+  #about .col2 .heading {
+    margin-left: 25px;
+  }
+  #page {
+    margin-left: 50px;
+  }
+  footer {
+    margin-top: -90px;
+  }
+  footer .list h1 {
+    font-size: 18px;
+  }
+  footer .list p {
+    font-size: 14px;
+  }
+  footer .list h1::after {
+    top: 12px;
+    left: 110px;
+    height: 20px;
+  }
+  footer .alphabets ul {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,509 @@
+* {
+    margin: 0;
+    top: 0;
+    box-sizing: border-box;
+}
+
+#heading {
+    background-image: url(image/Background.png);
+  
+}
+
+#heading .top-heading {
+    display: flex;
+    padding: 40px 20px 0px 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#heading .logo-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+}
+
+#heading .logo-section .logo1 {
+    height: 70px;
+    width: 150px;
+}
+
+#heading .logo-section .logo2 {
+    margin-top: -20px;
+
+}
+
+#heading .top-heading .emis {
+    display: flex;
+    position: relative;
+    gap: .9rem;
+}
+
+#heading .top-heading .emis span {
+    font-size: .8em;
+    background: white;
+    color: black;
+    font-family: 'Oxygen', sans-serif;
+    padding: 5px 10px;
+    border: none;
+    margin-top: -72px;
+    margin-right: -12px;
+    height: fit-content;
+    font-style: bold;
+    transition: .5s ease;
+    cursor: pointer;
+}
+#heading .top-heading .emis span:hover{
+    background-color: yellow;
+}
+
+#heading .bottom-heading ul{
+list-style: none;
+display: flex;
+align-items: center;
+margin-left: 100px;
+margin-top: 10px;
+gap: .8rem;
+
+
+}
+#heading .bottom-heading ul li{
+    padding: 12px 12px;
+    letter-spacing: 0px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+   font: 15px Montserrat sans-serif;
+    line-height: 1;
+   display: inline-block;
+   margin-bottom: 10px;
+    cursor: pointer;
+   
+}
+.dropdown-icon .Intro{
+    position: absolute;
+    left: 135px;
+    top: 169px;
+    padding: 11px 20px;
+    width: 140px;
+    font-size: 12px;
+    text-decoration: none;
+    color: #dddddd;
+    font-weight: 400;
+    line-height: 1;
+    background: #333333;
+    display: none;
+    transition: .5s ease;
+}
+.bottom-heading ul li:hover .Intro{
+
+    display: block;
+}
+
+.dropdown-icon .academics ul{
+    position: absolute;
+  
+    flex-direction: column;
+    left:151px;
+    top: 161px;
+    padding:2px 2px;
+
+    width: 160px;
+    font-size: 12px;
+    text-decoration: none;
+    color: #dddddd;
+    font-weight: 400;
+  
+    background: #333333;
+  
+   /* visibility: hidden; */
+ 
+}
+.dropdown-icon .academics{
+   display: none;
+   pointer-events: none;
+ 
+}
+.bottom-heading ul li:hover .academics{
+    display: block;
+   
+}
+.dropdown-icon .academics  ul li{
+    
+    border-bottom: 1px solid hsl(0, 0%, 40%);
+    width: 150px;
+    margin: auto;
+
+}
+
+
+
+.bottom-heading ul .go .dropdown-icon .gallery{
+    position: absolute;
+    left: 465px;
+    top: 169px;
+    padding: 5px 20px;
+    width: 160px;
+    font-size: 12px;
+    text-decoration: none;
+    color: #dddddd;
+    font-weight: 400;
+    line-height: 1;
+    background: #333333;
+    display: none;
+    
+}
+.dropdown-icon .gallery .g1{
+padding: 10px 0px;
+border-bottom: 1px solid hsl(0, 0%, 40%);
+width: 100%;
+}
+
+.bottom-heading ul .go:hover .gallery {
+    display: block; 
+}
+
+#hero .parent img{
+ width: 100%;
+
+
+
+}
+
+/* About */
+
+.section-p1{
+    padding: 40px 0;
+    margin: auto;
+    width: 90%;
+}
+#about h1{
+    font-size: 2em;
+    margin: 10px 0 5px 0;
+    font-weight: bold;
+    color: #6f2c91;
+    font-family: 'Oxygen', sans-serif;
+    line-height: 1.5em;
+}
+#about p{
+    display: block;
+    margin-top: -10px;
+    line-height: 1.6em;
+    font-family: 'Oxygen', sans-serif;
+    color: #505050;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+
+/* Courses*/
+
+#courses .branch{
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+#courses .branch .box,
+#courses .branch a{
+    flex-basis: 350px;
+ 
+}
+#courses .branch img
+{
+   width: 100%;
+   height:auto;
+    
+}
+#courses .branch .box h2{
+    font-size: 1.6em;
+    margin: 10px 0 5px 0;
+    font-weight: bold;
+    color: #dc3f6f;
+}
+#courses .branch .box:nth-child(2) h2{
+    color: #e6772e;
+}
+#courses .branch .box:nth-child(3) h2{
+    color: #7ebb44;
+}
+#courses .branch .box:nth-child(4) h2{
+   color: #1aa3b7;
+}
+#courses .branch .box:nth-child(5) h2{
+    color: #e03533;
+}
+#courses .branch .box{
+    display: flex;
+    float: left;
+    flex-direction: column;
+}
+#courses .branch .box p{
+ 
+    letter-spacing: .06em;
+    font-size: 16px;
+    color: #505050;
+    text-align: left;
+
+}
+#courses .branch .box span{
+    color: white;
+    background-color: #dc3f6f;
+    padding: 10px 10px;
+    border: none;
+    text-decoration: none;
+    font-size: 0.9em;
+  display: inline;
+  width:fit-content;
+    margin-top: 1rem;
+   
+}
+#courses .branch .box:nth-child(2) span{
+   
+   background-color: #e6772e;
+}
+#courses .branch .box:nth-child(3) span{
+   
+    background-color: #7ebb44;
+ }
+ #courses .branch .box:nth-child(4) span{
+   
+    background-color:#1aa3b7;
+ }
+ #courses .branch .box:nth-child(5) span{
+   
+    background-color:#e03533;
+ }
+
+ /* Banner*/
+ #banner img{
+    margin-top: 50px;
+   width: 100%;
+ }
+ #review h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-size: 1.8em;
+
+    font-weight: bold;
+    color: #6f2c91;
+ }
+ #review .student-review{
+    display: flex;
+  
+    align-items: center;
+    justify-content: space-between;
+    float: left;
+    width: 100%;
+    line-height: 1.2em;
+  
+    text-align: center;
+    padding: 30px;
+ }
+ #review .student-review .student{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 23px;
+    
+ }
+
+ #review .student-review img{
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+ }
+ #review .student-review p{
+    letter-spacing: 0.05em;
+    width: 100%;
+   
+    margin-top: 23px;
+    font-family: 'Oxygen', sans-serif;
+    color: #505050;
+    letter-spacing: .06em;
+    font-size: 16px;
+
+ }
+ #review .student-review p span{
+    text-align: center;
+    color: #6f2c91;
+    font-weight: bold;
+    font-size: 1.1em;
+ }
+
+ /* Footer */
+
+ #foot{
+    background-image: url(image/Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 470px;
+    width: 100%;
+    padding: 70px;
+ }
+#foot .footer-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+ } 
+
+ #foot .footer-main .foot-about{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+   
+ }
+ #foot .footer-main .foot-about ul{
+    list-style: none;
+  
+ }
+ #foot .footer-main .foot-about ul h3{
+    font-size: 1em;
+    margin-bottom: 15px;
+    color: #fff;
+ }
+ #foot .footer-main .foot-about ul li{
+    color:#fff;
+    font-family: 'Oxygen', sans-serif;
+  
+    font-size: .9em;
+    line-height: 1.6em;
+ } 
+ #foot .footer-main .foot-image img{
+    width: 100%;
+    height: 210px;
+ }
+
+
+ /* CSIT */
+
+ #main{
+    padding: 40px 0;
+    /* width: 100%; */
+    margin: 0px 80px;
+
+    width: 90%;
+ 
+ }
+ #main .main-details .main-img img{
+   width: 295px;
+  
+ }
+ #main .main-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 3rem;
+   /* border: 1px solid red; */
+
+ }
+ #main .main-details .main-about{
+   /* border: 1px solid green; */
+   width: 90%;
+
+overflow: none;
+ }
+ #main .main-details .main-about .first{
+   /* border: 5px solid rgb(128, 0, 0); */
+   width: 100%;
+ }
+ #main .main-details .main-about h1{
+    color: #7ebb44;
+    font-size: 2.2em;
+    font-weight: bold;
+    margin: 10px 0;
+    line-height: 1.1em;
+    width: 570px;
+    
+
+ }
+ #main .main-details .main-about h3{
+    color: #7ebb44;
+    font-size: 1.6em;
+    margin: 10px 0 5px 0;
+    font-weight: bold;
+ }
+
+ #main .main-details .main-about .first p{
+    margin: 5px 0;
+    font-size: 13.12px;
+   /* border: 1px solid black; */
+    letter-spacing: 0.05em;
+    font-family: 'Oxygen', sans-serif;
+    color: #505050;
+    line-height: 25px;
+    margin-bottom: 33px;
+    text-align: justify;
+ 
+
+ }
+ 
+ #main .main-details .main-about .second span{
+    margin: 15px 0;
+    font-size: 13.12px;
+    letter-spacing: 0.05em;
+    font-family: 'Oxygen', sans-serif;
+    color: #505050;
+    line-height: 25px;
+ }
+ #main .main-details .main-about .second ul li{
+    margin: 5px 0;
+    font-size: 13.12px;
+    letter-spacing: 0.05em;
+    font-family: 'Oxygen', sans-serif;
+    color: #505050;
+    line-height: 25px;
+  
+
+ }
+ #main .main-details .main-about .third{
+    margin-top: 23px;
+ }
+ #main .main-details .main-about .fourth h3{
+    margin-top: 40px;
+ }
+
+ #main .main-details .main-about .fourth .f1{
+    display: flex ;
+/* justify-content: space-between; */
+
+    gap: 6rem;
+ }
+ #main .main-details .main-about .fourth .s1{
+margin-top: 22px;
+width: 122%;
+margin-right: 2%;
+ }
+ #main .main-details .main-about .fourth .s1 ul{
+    list-style: none;
+    /* border: 1px solid green; */
+    width: 100%;
+
+ }
+
+ #main .main-details .main-about .fourth .s1 ul li {
+   margin: 0rem .5rem .5rem .5rem;
+   margin-left: -40px;
+    /* border: 1px solid black; */
+    padding: 7px 10px;
+    
+ }
+ #main .main-details .main-about .fourth .s1 ul li{
+
+    text-align: left;
+ }
+
+ #main .main-details .main-about .fourth .s1 ul li span{
+    background-image: url(image/span1.png);
+    display: block;
+   color: white;
+    text-transform: uppercase;
+    padding: 7px 10px;
+   
+    overflow: hidden;
+   
+ }
